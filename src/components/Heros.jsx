@@ -13,9 +13,6 @@ import friend9 from "../assets/friend9.jpg";
 const Heros = () => {
     return (
         <>
-            <section className="float-start w-25 me-3">
-                <img className="w-100" src={main} alt="Hero"/>
-            </section>
             <section className="float-end w-50 row border rounded-bottom-4 ms-2 me-0">
                 <h2 className="col-sm-12 text-center">Dream Team</h2>
                 <img className="col-sm-4 p-1" src={friend1} alt="Friend"/>
